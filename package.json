@@ -14,7 +14,7 @@
   },
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0",
-    "build": "echo \"hello, build\"",
+    "build": "echo \"hello world, build\"",
     "test": "jest",
     "coverage": "jest --coverage",
     "coveralls": "jest --coverage && cat ./coverage/lcov.info | coveralls",
